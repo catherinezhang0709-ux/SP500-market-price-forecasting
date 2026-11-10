@@ -1,0 +1,90 @@
+{
+  "all": {
+    "benchmark": {
+      "n": 960,
+      "mean_APE_difference_percentage_points": -0.03891050110466498,
+      "block_CIs": {
+        "6": {
+          "lower": -0.07423632881793689,
+          "upper": -0.004692035965960646,
+          "contains_zero": false
+        },
+        "12": {
+          "lower": -0.07949547774251996,
+          "upper": -0.0008204547876270314,
+          "contains_zero": false
+        },
+        "24": {
+          "lower": -0.08361930949494717,
+          "upper": 0.00033359064435458193,
+          "contains_zero": true
+        }
+      }
+    },
+    "mean_forecast": {
+      "n": 960,
+      "mean_APE_difference_percentage_points": -0.005957194105308179,
+      "block_CIs": {
+        "6": {
+          "lower": -0.021562132958637768,
+          "upper": 0.009551640489898365,
+          "contains_zero": true
+        },
+        "12": {
+          "lower": -0.020584666856584846,
+          "upper": 0.009081129106455848,
+          "contains_zero": true
+        },
+        "24": {
+          "lower": -0.020143705412473775,
+          "upper": 0.0089908300556688,
+          "contains_zero": true
+        }
+      }
+    }
+  },
+  "recent_Aug2026": {
+    "benchmark": {
+      "n": 63,
+      "mean_APE_difference_percentage_points": 0.07439805720248778,
+      "block_CIs": {
+        "6": {
+          "lower": -0.03578927113530763,
+          "upper": 0.19956747749536285,
+          "contains_zero": true
+        },
+        "12": {
+          "lower": -0.03753102245342117,
+          "upper": 0.1864223659101342,
+          "contains_zero": true
+        },
+        "24": {
+          "lower": -0.0567921448504367,
+          "upper": 0.16122574896441763,
+          "contains_zero": true
+        }
+      }
+    },
+    "mean_forecast": {
+      "n": 63,
+      "mean_APE_difference_percentage_points": -0.05669821343923634,
+      "block_CIs": {
+        "6": {
+          "lower": -0.1359470366645978,
+          "upper": 0.02784503247543399,
+          "contains_zero": true
+        },
+        "12": {
+          "lower": -0.12599919365735093,
+          "upper": 0.01855488191977935,
+          "contains_zero": true
+        },
+        "24": {
+          "lower": -0.08937175958893619,
+          "upper": 0.007729849536010841,
+          "contains_zero": true
+        }
+      }
+    }
+  }
+}

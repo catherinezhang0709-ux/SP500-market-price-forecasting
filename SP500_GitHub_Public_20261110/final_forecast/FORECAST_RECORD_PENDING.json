@@ -1,0 +1,17 @@
+{
+  "status": "DRAFT_PENDING_FINAL_CUTOFF_DATA_AND_HUMAN_APPROVAL",
+  "market": "S&P 500 price index",
+  "unit": "index points",
+  "reference_source": "Official S&P Dow Jones Indices price-index closing level",
+  "target": "2026-11-20T21:00:00Z",
+  "information_cutoff": "2026-11-13T12:00:00Z",
+  "scheduled_baseline_date": "2026-11-12",
+  "baseline_value": null,
+  "volatility20": null,
+  "intercept": null,
+  "volatility_coefficient": null,
+  "predicted_six_session_return": null,
+  "forecast_value_two_decimals": null,
+  "group_approval": null,
+  "warning": "This is a record template, not a valid submitted forecast."
+}
