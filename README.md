@@ -32,7 +32,7 @@ Under the teacher clarification supplied by the group, upload only the Final Rep
 
 The unique binding forecast on the report cover must match 7666.98, with the correct target and actual information cutoff. Human submission approval and actual contribution statements remain to be completed. Do not add post-cutoff market inputs.
 
-Repository: https://github.com/catherinezhang0709-ux/SP500-market-price-forecasting . This local folder has not been uploaded automatically. The older SP500_GitHub_Public_20261110 directory is superseded for final forecast reproduction. Report and presentation exports are not included here as final documents.
+Repository: https://github.com/catherinezhang0709-ux/SP500-market-price-forecasting . The older SP500_GitHub_Public_20261110 directory is superseded for final forecast reproduction. Report and presentation exports are not included here as final documents.
 
 The chat video is an edited translation/reconstruction of earlier work and its historical worked example is not the final forecast. reproduction/run_transcript.txt is the actual packaging reproduction log. No account credentials, financial login, paid API or live AI service is needed.
 
