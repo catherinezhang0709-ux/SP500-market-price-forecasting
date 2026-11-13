@@ -1,0 +1,14 @@
+{
+  "offline_stdlib_reproduction_passed": true,
+  "credential_pattern_scan_matches": 0,
+  "scan_limit": "Pattern scan is not proof of absence of every possible secret; binaries are not scanned as text.",
+  "restricted_full_price_library_excluded": true,
+  "observation_level_training_pairs_excluded": true,
+  "synthetic_sample_labelled": true,
+  "final_report_and_slides_included": false,
+  "full_raw_refit_reproducible": false,
+  "aggregate_final_forecast_reproducible": true,
+  "group_approval_declared_in_supplied_report": true,
+  "independent_signed_approval_evidence_included": false,
+  "documentation_only_update": true
+}

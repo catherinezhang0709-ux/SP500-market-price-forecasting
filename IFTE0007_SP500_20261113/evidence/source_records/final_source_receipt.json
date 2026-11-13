@@ -1,0 +1,21 @@
+{
+  "last_price_observation": "2026-11-12",
+  "baseline_close": 7592.4,
+  "observed_by_utc": "2026-11-13T10:29:27Z",
+  "checked_again_utc": "2026-11-13T11:45:32Z",
+  "original_publication_time_certified": false,
+  "publication_time_note": "AP search reported 2026-11-12 21:17:31 UTC; this is source metadata, not independent first-release certification. Yahoo timestamp is not treated as original release time.",
+  "fixed_price_availability_assumption": "next XNYS session at 06:00 America/New_York; Nov12 becomes eligible Nov13 11:00 UTC",
+  "sources": {
+    "baseline": "https://finance.yahoo.com/quote/%5EGSPC/history/?p=%5Egspc",
+    "prior_AP_crosscheck": "https://apnews.com/article/3f3668a937a11535103e3a5c8d82c9fc",
+    "fred": "https://fred.stlouisfed.org/series/SP500"
+  },
+  "fred_last_observation_at_check": "2026-11-11",
+  "retrieval_failures": [
+    "Yahoo direct request 429",
+    "AP direct open unavailable"
+  ],
+  "validation": "Nov12 value observed in Yahoo indexed historical table, matching earlier AP indexed report; FRED/primary confirmation unavailable at frozen check",
+  "market_reference": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/"
+}

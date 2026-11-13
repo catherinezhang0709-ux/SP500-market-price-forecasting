@@ -1,0 +1,22 @@
+{
+  "description": "Real aggregate calculation inputs; not synthetic. Raw licensed prices and observation-level training pairs are excluded. Aggregates permit OLS and factor arithmetic reproduction, not raw-source or row-selection audit.",
+  "n": 747,
+  "mean_x": 0.00821993959375337,
+  "mean_y": 0.004395329626410028,
+  "Sxx_centered": 0.013045517714968277,
+  "Sxy_centered": 0.012790716329749662,
+  "factor": {
+    "n_log_returns": 20,
+    "mean_log_return": -0.000988917545972179,
+    "sum_squared_centered_log_returns": 0.003784041719096535,
+    "ddof": 0,
+    "annualized": false
+  },
+  "baseline": 7592.4,
+  "first_training_origin": "2023-11-13T12:00:00+00:00",
+  "last_training_origin": "2026-11-04T12:00:00+00:00",
+  "last_training_target": "2026-11-11",
+  "latest_training_label_available": "2026-11-12T11:00:00+00:00",
+  "full_private_price_snapshot_sha256": "81ff4f190b1c7e29e30c38d6ce0f0109da8035d58e1b75fb9523077a079836ad",
+  "full_private_training_pairs_sha256": "a21eac5565ab5e86dc07e265285f1cca655b5ce38e1295ca69e9e541151e03dd"
+}

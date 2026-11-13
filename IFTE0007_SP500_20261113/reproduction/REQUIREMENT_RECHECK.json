@@ -1,0 +1,26 @@
+{
+  "reviewed_at_utc": "2026-11-13T11:54:14.455596+00:00",
+  "run_transcript": "present: actual reproduction command/output and separately labelled translated agent summary",
+  "README": "present: standard-library offline commands and exact reproduction scope",
+  "software_versions": "present: actual Python and dependency versions",
+  "forecast_record_fields": {
+    "market": "S&P 500 price index",
+    "unit": "index points",
+    "target": "2026-11-20T21:00:00Z",
+    "actual_information_cutoff": "2026-11-13T11:45:32+00:00",
+    "value": "7666.98"
+  },
+  "no_account_or_live_AI_needed_for_included_calculation": true,
+  "restricted_sample_clearly_labelled_synthetic": true,
+  "aggregate_calculation_reproducible": true,
+  "raw_price_to_training_fit_and_all_backtests_reproducible_from_zip": false,
+  "credential_pattern_scan": "No detected matches; not a universal guarantee. Full restricted price records excluded.",
+  "important_limit": "Public scope: real-aggregate forecast calculation plus labelled synthetic schema; no reconstruction of restricted raw prices, training-row selection or historical backtests.",
+  "human_approval": "declared in supplied final report; no separate approval time supplied",
+  "repair": "Ignore .git, .DS_Store, Thumbs.db and __pycache__; all payload hashes remain checked.",
+  "teacher_submission_clarification": "Final Report only in module system; clickable GitHub link in report; code and evidence hosted on GitHub.",
+  "public_student_identifiers_omitted": true,
+  "documentation_review_at_utc": "2026-11-13T15:16:25.075302+00:00",
+  "report_cover_sync": "supplied PDF checked: 7666.98 points, target Nov20 21:00 UTC, actual cutoff Nov13 11:45:32 UTC; hyperlinks present",
+  "presentation_status": "not inspected during this repository documentation cleanup; not a separately uploaded coursework item under teacher clarification"
+}
