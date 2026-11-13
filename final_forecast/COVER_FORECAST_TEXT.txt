@@ -1,9 +1,0 @@
-Group 10 — S&P 500 Market Price Forecasting
-Final point forecast: 7,666.98 index points.
-Market: S&P 500 price index (not an ETF, futures contract or total-return index).
-Target: official S&P Dow Jones Indices closing price-index level on 20 November 2026, 16:00 EST / 21:00 UTC.
-Actual information cutoff and issuance: 13 November 2026, 11:45:32 GMT / UTC.
-Coursework maximum permitted cutoff: 13 November 2026, 12:00 GMT / UTC.
-Baseline: 12 November 2026 close, 7,592.40 points.
-Predicted simple return: 0.9822354242% over six equity sessions.
-Human submission approval: must be recorded by the group; not invented by the agent.
