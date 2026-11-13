@@ -1,0 +1,56 @@
+{
+  "status": "frozen_calculation_prepared_for_group_submission_review",
+  "issued_at_utc": "2026-11-13T11:45:32+00:00",
+  "information_cutoff_utc": "2026-11-13T11:45:32+00:00",
+  "coursework_maximum_information_cutoff_utc": "2026-11-13T12:00:00Z",
+  "market": "S&P 500 price index",
+  "unit": "index points",
+  "target_datetime_utc": "2026-11-20T21:00:00Z",
+  "forecast_value": "7666.98",
+  "baseline_date": "2026-11-12",
+  "baseline": 7592.4,
+  "predicted_return": 0.009822354241697919,
+  "horizon_equity_sessions": 6,
+  "sessions": [
+    "2026-11-13",
+    "2026-11-16",
+    "2026-11-17",
+    "2026-11-18",
+    "2026-11-19",
+    "2026-11-20"
+  ],
+  "fit": {
+    "model_id": "SP500_VOL20_DAILY_OLS_ROLLING3Y_V1",
+    "asof_utc": "2026-11-13T11:45:32+00:00",
+    "latest_usable_baseline_date": "2026-11-12",
+    "latest_usable_baseline": 7592.4,
+    "latest_input_volatility20": 0.013755074916365342,
+    "intercept": -0.0036640604176310675,
+    "volatility_coefficient": 0.9804682810766292,
+    "training_count": 747,
+    "training_window_start": "2023-11-13T11:45:32+00:00",
+    "first_training_origin": "2023-11-13T12:00:00+00:00",
+    "last_training_origin": "2026-11-04T12:00:00+00:00",
+    "last_training_target": "2026-11-11",
+    "latest_training_label_available": "2026-11-12T11:00:00+00:00",
+    "independent_QR_passed": true,
+    "strict_PIT_certified": false,
+    "nov20_final_forecast_generated": true,
+    "nov20_final_forecast_generated_note": "Package-level forecast calculation is now generated; original model.py fit-only function returns False because it does not itself emit a point forecast."
+  },
+  "checks": {
+    "independent_QR_passed": true,
+    "future_price_poison_passed": true,
+    "training_targets_strictly_before_baseline": true,
+    "strict_PIT_certified": false
+  },
+  "sources": {
+    "baseline": "https://finance.yahoo.com/quote/%5EGSPC/history/?p=%5Egspc",
+    "prior_AP_crosscheck": "https://apnews.com/article/3f3668a937a11535103e3a5c8d82c9fc",
+    "fred": "https://fred.stlouisfed.org/series/SP500"
+  },
+  "source_limitations": "Nov12 baseline verified via Yahoo search snapshot and earlier AP report; FRED still ends Nov11; primary index-provider confirmation pending. Historical first-release vintages not certified.",
+  "group_submission_approval": null,
+  "model_sha256": "8ab9679aa09d74af702f1b531fe7e4fd27f0e9b2a471bfd6d7a815c5d44f30be",
+  "input_sha256": "81ff4f190b1c7e29e30c38d6ce0f0109da8035d58e1b75fb9523077a079836ad"
+}

@@ -1,0 +1,31 @@
+English translations and condensed selections of user instructions, with contextual agent summaries of the saved project history. These are not verbatim consecutive exchanges or an original live capture.
+
+YOU
+Continue our AI Agent Forecasting project. Confirm the saved real S&P 500 historical data and existing model code.
+
+AGENT
+Market: the official S&P 500 price index, in index points. Forecast horizon: six US equity sessions. The coursework target is the 20 November close, using information available by 13 November at 12:00 UTC.
+
+YOU
+What is the factor?
+
+AGENT
+The selected factor is 20-day realised volatility: population standard deviation of 20 daily log returns from 21 consecutive closes. It is unannualised and enters the regression as a decimal.
+
+YOU
+Then let us provisionally choose OLS. It has not beaten the benchmark; how should we improve the model?
+
+AGENT
+Retain the transparent single-factor OLS rule. Compare it with unchanged price, momentum SVR and DGS10-change Ridge. The inspected alternatives do not show consistent improvement. Recent unchanged-price performance is better, so OLS has no assured advantage.
+
+YOU
+Keep a rolling three-year training window. Ten years are only the underlying library. Do not use Fridays alone.
+
+AGENT
+Train on all eligible trading weekdays. Use only available features and matured labels, with training targets strictly before the current baseline. The saved 6 November fit contains 746 pairs. Independent QR and future-price leakage checks passed.
+
+YOU
+Use the latest model to calculate a prediction from the available data.
+
+AGENT
+Historical demonstration using real saved inputs: baseline 7,353.73; volatility 0.0124123174; intercept -0.0033238677; slope 0.9737372784. Predicted return is 0.8762468%. Level = 7,353.73 x (1 + 0.0087624685) = 7,418.17. This 6 November snapshot targets 13 November. It is retrospective, not the final 20 November forecast.

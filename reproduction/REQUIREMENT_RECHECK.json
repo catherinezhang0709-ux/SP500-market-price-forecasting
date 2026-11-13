@@ -1,0 +1,24 @@
+{
+  "reviewed_at_utc": "2026-11-13T11:54:14.455596+00:00",
+  "run_transcript": "present: actual reproduction command/output and separately labelled translated agent summary",
+  "README": "present: standard-library offline commands and exact reproduction scope",
+  "software_versions": "present: actual Python and dependency versions",
+  "forecast_record_fields": {
+    "market": "S&P 500 price index",
+    "unit": "index points",
+    "target": "2026-11-20T21:00:00Z",
+    "actual_information_cutoff": "2026-11-13T11:45:32+00:00",
+    "value": "7666.98"
+  },
+  "no_account_or_live_AI_needed_for_included_calculation": true,
+  "restricted_sample_clearly_labelled_synthetic": true,
+  "aggregate_calculation_reproducible": true,
+  "raw_price_to_training_fit_and_all_backtests_reproducible_from_zip": false,
+  "credential_pattern_scan": "No detected matches; not a universal guarantee. Full restricted price records excluded.",
+  "important_limit": "Aggregate sufficient statistics reproduce calculation, not independent raw-data provenance or selection. Restricted sample allowance does not automatically prove full assessment compliance.",
+  "human_approval": "pending",
+  "report_cover_and_slides_sync": "pending",
+  "repair": "Ignore Finder .DS_Store, Windows Thumbs.db and Python __pycache__ in directory inventory; payload hash checking remains strict.",
+  "teacher_submission_clarification": "Final Report only in module system; clickable GitHub link in report; code and evidence hosted on GitHub.",
+  "public_student_identifiers_omitted": true
+}
